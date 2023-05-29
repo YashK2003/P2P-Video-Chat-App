@@ -1,0 +1,46 @@
+body {
+  background: rgb(42, 50, 158);
+  color: #fff;
+  font-family: monospace;
+  font-size: 16px;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
+}
+
+.App {
+  background: linear-gradient(to bottom, #297af9, #333fb7);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  #root {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .App {
+    border-radius: 10px;
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, .06);
+    height: 667px;
+    overflow: hidden;
+    width: 375px;
+  }
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
